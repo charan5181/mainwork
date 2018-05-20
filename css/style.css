@@ -1,0 +1,85 @@
+body{
+  background-image: url("glass.jpg");
+  background-size:     cover;
+   background-repeat:   no-repeat;
+}
+h1 {
+    color: Gray;
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+}
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 15%;
+    height: 15%;
+    opacity: 0.9;
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+.bg-1 {
+    /*background: #2d2d30;
+    color: #bdbdbd;*/
+}
+.bg-1 h3 {color: #000;}
+.bg-1 p {
+  color: #000;
+  font-style: italic;}
+
+  /* Add a dark background color with a little bit see-through */
+  .navbar {
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity:0.9;
+  }
+
+  /* Add a gray color to all navbar links */
+  .navbar li a, .navbar .navbar-brand {
+      color: gray !important;
+  }
+
+  /* On hover, the links will turn white */
+  .navbar-nav li a:hover {
+      color: #000 !important;
+  }
+
+  /* The active link */
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color:#29292c !important;
+  }
+
+  /* Remove border color from the collapsible button */
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+
+  /* Dropdown */
+  .open .dropdown-toggle {
+      color: #fff ;
+      background-color: #555 !important;
+  }
+
+  /* Dropdown links */
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+
+  /* On hover, the dropdown links will turn red */
+  .dropdown-menu li a:hover {
+      background-color: blue !important;
+  }
+
+#footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

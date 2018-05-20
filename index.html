@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Main Page</title>
+<!--Styling is done in css/style.css-->
+<link rel="stylesheet"  href="/style.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+</head>
+
+<!--Body Starts Here-->
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+ <div ng-app="">
+   <!-- Navigation bar Container -->
+   <nav class="navbar navbar-default navbar-fixed-top">
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/">Logo</a>
+
+       </div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+         <ul class="nav navbar-nav navbar-right">
+           <li><a href="#myPage">HOME</a></li>
+           <li><a href="#profile">PROFILE</a></li>
+           <li><a href="#education">EDUCATION</a></li>
+           <li><a href="#contact">CONTACT</a></li>
+           <li class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+             <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="#">Merchandise</a></li>
+               <li><a href="#">Extras</a></li>
+               <li><a href="#">Media</a></li>
+             </ul>
+           </li>
+           <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+
+
+     <div class="container text-center">
+        <h3>R SRI CHARAN REDDY</h3>
+        <p><em>FRONT END DEVELOPER</em></p>
+        <p>Welcome to My WebSite</p>
+     </div>
+<!-- Image Container-->
+      <div class="text-center">
+        <div class="col-sm-12">
+           <a href="#demo2" data-toggle="collapse">
+           <img src="/Charan.jpg" class="person" alt="Name" />
+           </a>
+          <div id="demo2" class="collapse">
+          <p><b>Charan</b></p>
+          <p><b>Loves Dota2</b></p>
+         </div>
+        </div>
+      </div>
+
+      <!-- Profile Container-->
+      <div id="profile">
+        <div class="container">
+          <h3 class="text-center">Profile</h3>
+          <p class="text-center"><b>My Profile & Interests .....</b></p>
+          <p><em>I am a Web Developer working on various JavaScript Frameworks like Node.JS,Angular JS
+               in developing Dashboards and Webpages.Interested in latest Cloud & UI related
+               technologies like Amazon Web Services(AWS),React JS.<em></p>
+        </div>
+      </div>
+
+<!-- Tour Container-->
+<div id="education" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">Education</h3>
+    <p class="text-center">Graduated from PESIT Bengaluru.</p>
+
+    <ul class="list-group">
+      <li class="list-group-item">Engineering - PESIT! Year of Passing 2015 with Aggregate 73.58%</li>
+      <li class="list-group-item">Intermediate Board of Andhra Pradesh! Year of Passing 2011 with Aggregate 94.7%</li>
+      <li class="list-group-item">SSC Board of Andhra Pradesh! Year of Passing 2009 with Aggregate 90.6%</li>
+    </ul>
+  </div>
+</div>
+<!--Conatct us Container-->
+<div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><b><em>We love our fans!</em></b></p>
+  <div class="row test">
+    <div class="col-md-4">
+      <p>Fan? Drop a note.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Bengaluru, Karnataka</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +91 7042154543</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: charanreddyeric@mail.com</p>
+    </div>
+    <form action="/send-email" method="post">
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p title="My Page">Theme Made By Reddy. Copyright @2018</p>
+</footer>
+
+<script src="/scripts/jqueryscript.js"></script>
+
+ </div>
+
+</body>
+</html>
