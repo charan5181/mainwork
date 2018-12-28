@@ -24,8 +24,8 @@ res.sendFile(__dirname + '/index.html');
       var transporter = nodemailer.createTransport({
           service: 'Gmail',
           auth: {
-                   user: 'charanprofilermainwork@gmail.com',
-                   pass: 'Main1234'
+                   user: '***********@gmail.com',
+                   pass: '*******'
                  }
       });
 
