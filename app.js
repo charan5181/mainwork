@@ -30,8 +30,8 @@ res.sendFile(__dirname + '/index.html');
       });
 
       let mailOptions = {
-          from: '"Profile Page" <charanprofilermainwork@gmail.com>', // sender address
-          to: '<charanreddyeric@gmail.com>', // list of receivers
+          from: '"Profile Page" <************@gmail.com>', // sender address
+          to: '<************@gmail.com>', // list of receivers
           subject: `${req.body.email}`, // Subject line
           text: `${req.body.comments}`, // plain text body
           //html: '<b>NodeJS Email Tutorial</b>' // html body
